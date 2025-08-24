@@ -1,0 +1,19 @@
+# 📧 Spam Mail Detector
+
+A simple machine learning project to classify spam vs. ham (non-spam) emails.
+
+## 🚀 Steps:
+1. Preprocess text (lowercase, remove stopwords, tokenize).
+2. Convert to numerical features using TF-IDF.
+3. Train model (Naive Bayes).
+4. Evaluate performance.
+
+## 📂 Files
+- `spam_detector.py` → Main script
+- `preprocessing.py` → Text preprocessing
+- `model.py` → Model training & evaluation
+- `requirements.txt` → Dependencies
+
+## 📊 Output
+The model prints Accuracy, Precision, and F1 Score.
+
